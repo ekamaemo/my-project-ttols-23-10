@@ -1,0 +1,32 @@
+/* The whole page */
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+  background-color: #f4f7fb;
+  color: #223047;
+}
+
+/* Center the content and give it some room */
+main {
+  max-width: 600px;
+  margin: 4rem auto;
+}
+
+h1 {
+  color: #176b87;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 6px;
+  background-color: #176b87;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #11556d;
+}
